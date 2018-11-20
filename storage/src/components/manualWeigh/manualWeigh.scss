@@ -1,0 +1,178 @@
+.app {
+  width: 100vw;
+  height: 100%;
+  background-color: #F2F1F1;
+  main {
+    width: 1600px;
+    margin: 0 auto;
+    height: 763px;
+    padding-top: 20px;
+    .lay {
+      width: 1530px;
+      margin: 0 auto;
+      .leftBox {
+        margin-top: 10px;
+        width: 420px;
+        height: 700px;
+        background-color: #FFFFFF;
+        border: 1px solid #E2E2E2;
+        float: left;
+        .upper,
+        .lower {
+          width: 390px;
+          height: 310px;
+          background-color: blanchedalmond;
+          margin: 0 auto;
+          margin-top: 25px;
+          border: 1px solid #E2E2E2;
+        }
+        .lower {
+          margin-top: 25px;
+        }
+      }
+      .rightBox {
+        color: #878787;
+        border: 1px solid #E2E2E2;
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 1090px;
+        height: 700px;
+        background-color: #FFFFFF;
+        float: left;
+        padding: 20px 40px;
+        .line {
+          height: 40px;
+          line-height: 40px;
+          span {
+            float: left;
+          }
+          .chose {
+            padding-left: 10px;
+            float: left;
+            width: 220px;
+            height: 40px;
+            border: 1px solid #E2E2E2;
+            margin-left: 10px;
+          }
+        }
+        .box2 {
+          margin-top: 20px;
+          span {
+            margin-left: 30px;
+          }
+          .chose {
+            width: 220px;
+          }
+          .planNum {
+            margin-left: 0;
+          }
+        }
+        .box3 {
+          margin-top: 20px;
+          height: 40px;
+          line-height: 40px;
+          span {
+            float: left;
+            margin-right: 10px;
+          }
+          .option {
+            margin-left: 45px;
+          }
+          div {
+            float: left;
+            text-align: center;
+            margin-left: 10px;
+            border-radius: 5px;
+            width: 90px;
+            height: 40px;
+            border: 1px solid #E6F4E8;
+            background-color: #EAFBEE;
+            color: #48BC60;
+          }
+        }
+        .cut {
+          width: 100%;
+          margin: 20px 0;
+          border: 1px solid #ECECEC;
+        }
+        .infoBox {
+          float: left;
+          color: #7C7C7B;
+          background-color: #FCF5E0;
+          width: 350px;
+          height: 350px;
+          border: 1px dashed #DDDDDD;
+          padding: 40px 60px;
+          div {
+            margin-bottom: 40px;
+            span {
+              margin-left: 20px;
+            }
+          }
+        }
+        .readInfoBox {
+          width: 450px;
+          margin-left: 440px;
+          padding-top: 20px;
+          .com {
+            height: 40px;
+            line-height: 40px;
+            margin-bottom: 30px;
+            .name {
+              margin-left: 94px;
+            }
+          }
+          span {
+            float: left;
+          }
+          .info {
+            width: 290px;
+            height: 40px;
+            border: 1px solid #DDDDDD;
+            float: left;
+            margin-left: 30px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-right: none;
+          }
+          .readBtn,
+          .sendBtn {
+            width: 60px;
+            float: left;
+            text-align: center;
+            height: 40px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            color: #18B13E;
+            border: 1px solid #E6F4E8;
+            background-color: #EAFBEE;
+          }
+          .infos {
+            border-right: 1px solid #DDDDDD;
+            width: 350px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+          }
+        }
+        .reset,.submit{
+          width: 80px;
+          height: 40px;
+          border-radius: 5px;
+          text-align: center;
+          line-height: 40px;
+          background-color: #18B13E;
+          color: #FFFFFF;
+          display: inline-block;
+        }
+        .reset{
+          background-color: #DAE1DC;
+          color: #72787F; 
+          margin-left: 30px;
+        }
+        .submit{
+          margin-left: 400px;
+        }
+      }
+    }
+  }
+}

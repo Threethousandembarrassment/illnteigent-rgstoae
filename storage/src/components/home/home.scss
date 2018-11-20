@@ -1,0 +1,124 @@
+html {
+  font-size: 10vw;
+}
+
+.all {
+  width: 100vw;
+  height: 100%;
+  background-color: #EEF3FA;
+  .layout {
+    background-color: #F2F1F1;
+    width: 1600px;
+    margin: 0 auto;
+    main {
+      padding: 0 55px 0 55px;
+      .workload {
+        float: left;
+        width: 1130px;
+        height: 285px;
+        background-color: #FFFFFF;
+      }
+      .lately {
+        width: 340px;
+        height: 285px;
+        padding: 7px 10px 0 15px;
+        background-color: #FFFFFF;
+        overflow-y: scroll;
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      }
+      .lately .latelyWork {
+        width: 100%;
+        padding-top: 6px;
+        span {
+          font-size: 14px;
+        }
+        .state {
+          border-radius: 8px;
+          width: 50px;
+          height: 20px;
+          font-size: 12px;
+          text-align: center;
+          display: inline-block;
+        }
+        .state1 {
+          border: 1px solid #F1A460;
+          color: #F1A460;
+        }
+        .state2 {
+          border: 1px solid #D4D4D4;
+          color: #D4D4D4;
+        }
+      }
+      .businessClass {
+        float: left;
+        width: 557px;
+        height: 350px;
+        background-color: #FFFFFF;
+      }
+      .ratioDetails {
+        float: left;
+        width: 557px;
+        height: 350px;
+        background-color: #FFFFFF;
+      }
+      .latestPound {
+        width: 340px;
+        height: 350px;
+        background-color: #FFFFFF;
+        padding: 5px 20px 20px 20px;
+        .latelyPoundInfo {
+          font-size: 13px;
+          margin: 15px 0 15px 0;
+          .dot1 {
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background-color: #D2D2D2;
+            display: inline-block;
+            margin-left: 10px;
+          }
+        }
+        .cut {
+          width: 100%;
+          height: 1px;
+          background-color: #D2D2D2;
+        }
+      }
+    }
+    footer {
+      width: 100%;
+      height: 35px;
+      background-color: #494F5D;
+      margin-top: 61px;
+      text-align: center;
+      line-height: 35px;
+      color: #D4D4D4;
+      font-size: 12px;
+    }
+    .box {
+      float: left;
+      margin-top: 22px;
+      .dot {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        background-color: #22AC38;
+        border-radius: 50px;
+      }
+      .title {
+        position: relative;
+        font-size: 14px;
+        color: #22AC38;
+        margin-bottom: 10px;
+      }
+      .titleTips {
+        color: #808080;
+      }
+    }
+    .division {
+      margin-left: 15px;
+    }
+  }
+}

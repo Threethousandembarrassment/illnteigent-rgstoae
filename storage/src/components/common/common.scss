@@ -1,0 +1,114 @@
+ .bigBox {
+   background-color: #F2F1F1;
+   width: 1600px;
+   margin: 0 auto;
+   .top {
+     padding-left: 42px;
+     padding-right: 55px;
+     text-align: center;
+     height: 35px;
+     background-color: #494F5D;
+     font-size: 12px;
+     color: #E7E8E9;
+     .com {
+       line-height: 35px;
+       float: left;
+     }
+     .week {
+       padding-left: 5px;
+     }
+     .notice {
+       display: inline-block;
+       line-height: 35px;
+       margin-right: 35px;
+       p {
+         white-space: nowrap;
+       }
+       .noticeIcon {
+         float: left;
+         margin-top: 8px;
+       }
+       .getintoIcon {
+         float: left;
+         margin: 11px 0 0 4px;
+       }
+       .noticeWords {
+         float: left;
+         color: #63B900;
+       }
+     }
+     .user {
+       float: right;
+       line-height: 35px;
+       p {
+         float: left;
+       }
+       span {
+         float: left;
+         color: #63B900;
+       }
+       .cancelBox {
+         float: left;
+         .cancelIcon {
+           float: left;
+           width: 25px;
+           height: 21px;
+           margin: 6px 0 0 5px;
+         }
+       }
+       .userIcon {
+         float: left;
+         width: 25px;
+         height: 21px;
+         margin: 7px 2px 0 0;
+       }
+     }
+   }
+ }
+
+ .navigation {
+   height: 70px;
+   background-color: #FFFFFF;
+   .upline {
+     width: 100%;
+     height: 60px;
+     .logo {
+       float: left;
+       width: 260px;
+       height: 40px;
+       margin: 10px 3px 0 40px;
+     }
+     .switchBox {
+       display: inline-block;
+       width: 60px;
+       height: 70px;
+       margin: 0 9px 0 9px;
+       text-align: center;
+       padding-top: 10px;
+       p {
+         font-size: 13px;
+         color: black;
+       }
+       .modular {
+         color: #25AD3A
+       }
+     }
+   }
+   .downline {
+     width: 100%;
+     height: 10px;
+     .dleft {
+       float: left;
+       width: 300px;
+       height: 10px;
+     } 
+   }
+ }
+
+ footer {
+   height: 70px;
+   text-align: center;
+   color: #ADAEAE;
+   line-height: 70px;
+   font-size: 14px;
+ }

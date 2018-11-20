@@ -1,0 +1,78 @@
+table {
+  border: 1px solid #DDDDDD;
+  border-collapse: collapse;
+  width: 100%;
+  tr {
+    &:nth-child(odd) {
+      background: #FFFFFF;
+    }
+    &:nth-child(even) {
+      background: #EEEEEE;
+    }
+    td,
+    th {
+      color: #777777;
+      border: 1px solid #DDDDDD;
+      height: 30px;
+      text-align: center;
+      max-width: 200px;
+      padding: 10px 0;
+      .check {
+        width: 20px;
+        height: 20px;
+        border: 1px solid #DDDDDD;
+        border-radius: 5px;
+        margin: 0 auto;
+        background-color: #FFFFFF;
+      }
+      .checked {
+        background-image: url(../../assets/img/gouxuan.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: 0px 3px;
+      }
+    }
+  }
+}
+
+.pageBox {
+  height: 60px;
+  margin-top: 20px;
+  .leftBox {
+    float: left;
+    color: #494F5D;
+    .selPageNum {
+      display: inline-block;
+      padding-left: 10px;
+      line-height: 35px;
+      width: 60px;
+      height: 35px;
+      border: 1px solid #DDDDDD;
+      border-radius: 5px;
+      background-color: #FFFFFF;
+      img{
+        float: right;
+        margin-top: 10px;
+        margin-right: 6px;
+      }
+    }
+  }
+  .rightBox {
+    float: right;
+    color: #494F5D;
+    .front {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+    .behind {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+    .com {
+      background-color: #FFFFFF;
+      border: 1px solid #DDDDDD;
+      float: left;
+      padding: 8px 10px;
+    }
+  }
+}

@@ -1,0 +1,118 @@
+.app {
+  width: 100vw;
+  height: 100%;
+  background-color: #F2F1F1;
+  main {
+    width: 1600px;
+    margin: 0 auto;
+    height: 763px;
+    padding-top: 20px;
+    .lay {
+      width: 1530px;
+      margin: 0 auto;
+      .searchBox {
+        width: 1530px;
+        margin: 0 auto;
+        height: 80px;
+        border: 1px solid #DDDDDD;
+        background-color: #FFFFFF;
+        margin: 10px 0 15px;
+        font-size: 15px;
+        .stateBox {
+          line-height: 75px;
+          margin-left: 30px;
+          color: #777777;
+          span {
+            float: left;
+          }
+          .select,
+          .selChild {
+            width: 250px;
+            height: 40px;
+            line-height: 36px;
+            margin-top: 18px;
+            padding-left: 30px;
+            border: 1px solid #DDDDDD;
+          }
+          .selChild {
+            margin-left: 20px;
+          }
+        }
+      }
+      .box {
+        height: 600px;
+        background-color: #FFFFFF;
+        width: 100%;
+        float: left;
+        display: flex;
+        color: #777777;
+        .leftBox,
+        .rightBox {
+          flex: 1;
+          border: 1px solid #DDDDDD;
+          height: 600px;
+          .triangle {
+            width: 150px;
+            height: 110px;
+            background-color: #494F5D;
+            float: left;
+          }
+          span {
+            float: left;
+          }
+          .com {
+            padding-left: 150px;
+            line-height: 42px;
+            width: 570px;
+            height: 42px;
+            margin-bottom: 40px;
+            margin-top: 5px;
+            .up,
+            .down {
+              width: 40px;
+              height: 40px;
+              border: 1px solid #DDDDDD;
+              float: left;
+              text-align: center;
+              .click {
+                background-color: #18B13E;
+                color: #FFFFFF;
+              }
+            }
+            .up,
+            .inputBox {
+              margin-left: 20px;
+              border-top-left-radius: 5px;
+              border-bottom-left-radius: 5px;
+            }
+            .down,
+            .inputBtn {
+              border-top-right-radius: 5px;
+              border-bottom-right-radius: 5px;
+            }
+            .inputBox,
+            .inputBtn {
+              width: 260px;
+              height: 40px;
+              float: left;
+              border: 1px solid #DDDDDD;
+            }
+            .inputBtn {
+              width: 70px;
+              background-color: #EAFBEE;
+              text-align: center;
+              color: #18B13E;
+              border-color: #DEF1E1;
+            }
+          }
+          .top {
+            margin-top: 80px;
+          }
+          .coms {
+            padding-left: 135px;
+          }
+        }
+      }
+    }
+  }
+}
